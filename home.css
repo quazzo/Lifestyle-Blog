@@ -1,0 +1,14 @@
+img {
+	text-align: right;
+}
+.TextWrapRight {
+	float: right;
+	margin: 10px;
+}
+.TextWrapLeft{
+	float: left;
+	margin: 10px;
+}
+.topnav{
+	margin: 27px;
+}
