@@ -1,3 +1,20 @@
 h1 {
 	color: red
 }
+ul.topnav li { 
+	display: inline;
+	margin: 100px;
+	font-family: 'Happy Monkey', cursive;
+	font-size: 20px;
+}
+img {
+	text-align: right;
+}
+.TextWrapRight {
+	float: right;
+	margin: 10px;
+}
+.TextWrapLeft{
+	float: left;
+	margin: 10px;
+}
