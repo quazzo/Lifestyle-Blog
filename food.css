@@ -1,3 +1,9 @@
 #Food {
 	font-size: 30px;
 }
+form {
+	margin: 10px;
+	padding: 10px;
+	float: right;
+	border: 1px solid purple;
+}
