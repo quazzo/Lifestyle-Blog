@@ -22,3 +22,6 @@ img {
 .imagerep:hover .imagetext {
 	display: block;
 }
+body {
+	background-color: grey;
+}
