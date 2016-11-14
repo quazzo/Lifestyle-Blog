@@ -1,3 +1,50 @@
 #faraway {
 	font-size: 30px;
 }
+
+.TextWrapRight {
+	float: right;
+	margin: 10px;
+}
+
+.TextWrapLeft{
+	float: left;
+	margin: 10px;
+}
+
+p {
+	margin-left: 10px;
+	font-family: 'Roboto', sans-serif;
+	color: white !important;
+}
+
+body{
+	color: grey !important;
+}
+
+h2{
+	margin-left: 10px;
+	font-family: 'Roboto', sans-serif;
+	color: white !important;
+}
+
+.sidenav{
+	 list-style-type: none !important;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    width: 100px;
+    background-color: #f1f1f1;
+    border: 1px solid #555;
+    float: right;
+}
+
+.snav {
+	display: block;
+    color: #000;
+    padding: 8px 16px;
+    width: 60px;
+    float: right;
+    text-align: center;
+}
+
