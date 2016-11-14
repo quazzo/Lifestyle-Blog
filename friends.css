@@ -17,12 +17,24 @@ img {
 .imagerep{
 	position: relative;
 	display: inline;
-	height: 220;
+	height: 220px;
+	padding: 10px;
+
 }
 
-.imagerep:hover .imagetext {
-	display: block;
+.row{
+	padding-bottom: 20px;
 }
+
 body {
 	background-color: grey !important;
 }
+
+h2{
+	position: absolute;
+	font-family: 'Happy Monkey', cursive;
+	color: white !important;
+	bottom: 10px; 
+   left: 20px; 
+}
+
