@@ -1,25 +1,51 @@
 <!DOCTYPE html>
 <head>
 	<title> 7D Food </title>
+	<link href='bootstrap-3.3.7-dist/css/bootstrap.css' rel='stylesheet'>
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" type="text/css" href="food.css">
 	<link href="https://fonts.googleapis.com/css?family=Happy+Monkey" rel="stylesheet">
 </head>
 <body>
-<h1> 7D Blog </h1>
+<h1> <a href='index.html'>7D Blog</h1>
 <ul class='topnav'>
-    <li id="Food">Food.</li>
-    <li>Friends.</li>
-    <li>Far Away.</li>
-    </ul>
- <p> A completely accurate not at all edited description of life on Greyfriars. Nothing Gold Can Stay is written by Robert Frost. The eight-line poem rhymes in couplets going aa bb cc dd.  Each line contains six or seven syllables. The rhyme scheme drew me in as well as the rhythm of the poem. This poem sticks in my mind because of its short length and powerful meaning. There are no difficult words or abstract metaphors. The poem is what it is and can be easily taken at face value. It has been difficult for me not to go straight for deeper meanings in the poems we have read. This poem is powerful because I was able to analyze it without going beyond the words. One of its best aspects is the simplicity of the poem. The best things happen in an instant. In the past week I have been told countless times “It goes by faster than you will ever believe”, which is the same as Frost’s “But only so an hour”. As a Robert Frost lover it did not surprise me that I would consider one of his works the most successful but I didn’t expect to find a poem so fitting of my current situation. Frost embodied the idea of celebrating the “gold.”  He let the reader imagine their own gold, weather it is when the leaves fall from the trees, the first snow, a fresh relationship or life at Cate. Each of these things come and go. For some if you blink you miss it and with others the years seem like a day. The poem celebrates the gold even though it can only be seen for a short time. The fact that it leaves is less important than that is was there. During graduation I was sad to be saying goodbye to the seniors. Frost focused on appreciating the fact they were there at all. The conciseness of the poem makes it feel like even the poem can’t last forever. One minute you are reading the elegant flow of the words and the next you are reminded as the poem comes to a conclusion, “Nothing gold can stay.” 
-  </p> 
-<form action="action_page.php" method="get">
-	Name:<br>
-	<input type="text" name="Name"><br>
-	Recipe:<br>
-	<input type="text" name="Recipe"><br>
-	<input type="submit" value="Submit">
-</form>    
+    <li id="Food"> <a href='food.html'>Food.</li>
+    <li> <a href='friends.html'>Friends.</li>
+    <li> <a href='faraway.html'>Far Away.</li>
+</ul>
+ <p> 
+<div class='container'>
+	<div class='row'>
+	<div class='col-sm-8'>
+		<h2>Sausage and Fennel Pasta</h2>
+		<p>This was a great winter warmer from Jamie Oliver</p>
+	</div>
+	</div>
+	<div class='row'>
+	<div class='col-sm-4'>
+		<img src='http://www.johnsonville.com/recipe/zesty-italian-sausage-pasta/image/zestyItalianSausagePasta.jpg' width="200px" height="100px">
+	</div>
+	</div>
+</div>
+<form class="form-horizontal">
+  <div class="form-group">
+    <label for="name" class="col-sm-2 control-label">Name</label>
+    <div class="col-sm-10">
+      <input type="name" class="form-control" id="inputname" placeholder="Name">
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="recipe" class="col-sm-2 control-label">Recipe</label>
+    <div class="col-sm-10">
+      <input type="recipe" class="form-control" id="inputrecipe" placeholder="Recipe">
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="col-sm-offset-2 col-sm-10">
+      <button type="submit" class="btn btn-default">Submit</button>
+    </div>
+  </div>
+ </p> 
+</form>   
 </body>
 </html>
