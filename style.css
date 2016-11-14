@@ -1,15 +1,49 @@
+body {
+	background-color: #FCFBE3;
+}
+
+h1 {font-family: 'Happy Monkey', cursive;
+	color: #91219E;
+	text-align: center;
+}
+
 ul.topnav li { 
 	display: inline;
 	margin: 100px;
 	font-family: 'Happy Monkey', cursive;
 	font-size: 20px;
 }
+
+a.sitelink:link
+{
+   color: purple;
+   text-decoration: none;
+}
+a.sitelink:visited
+{
+   color: purple;
+   text-decoration: none;
+}
+a.sitelink:hover
+{
+   color: purple;
+   text-decoration: none;
+}
+a.sitelink:active
+{
+   color: purple;
+   text-decoration: none;
+}
+
 img {
 	text-align: right;
 }
+<<<<<<< HEAD
 h1 {
 	color: red;
 }
 body {
 	background-color: grey !important;
 }
+=======
+>>>>>>> origin/master
