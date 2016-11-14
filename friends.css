@@ -17,6 +17,7 @@ img {
 .imagerep{
 	position: relative;
 	display: inline;
+	height: 220;
 }
 
 .imagerep:hover .imagetext {
