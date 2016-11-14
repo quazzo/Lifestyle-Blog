@@ -1,5 +1,6 @@
 img {
 	text-align: right;
+	margin-left: 10px;
 }
 .TextWrapRight {
 	float: right;
@@ -11,4 +12,11 @@ img {
 }
 .topnav{
 	margin: 27px;
+}
+
+p {
+	margin-left: 10px;
+	font-family: 'Roboto', sans-serif;
+	color: white !important;
+
 }

@@ -3,8 +3,10 @@
 	<title> 7D Friends </title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" type="text/css" href="friends.css">
+	<
 	<link href="https://fonts.googleapis.com/css?family=Happy+Monkey" rel="stylesheet">
   <link href='bootstrap-3.3.7-dist/css/bootstrap.css' rel='stylesheet'>
+  <script src="jquery-3.1.1.min.js"></script>
 </head>
 <body>
 <h1><a href='index.html' class='sitelink'>7D Blog</a></h1>
@@ -18,18 +20,21 @@
 </ul>
 
 <div class="row">    
-<div class="col-sm-4" class="imagerep">
-  <img src="images/Laura.jpg">
+<div class="col-sm-4" id="myModal" class="modal">
+  <img id= myImg src="images/Laura.jpg" alt="Info" width="300" height="200">
+
+   <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+   <img class="modal-content" id="img01">
   <h2>Laura</h2>
-  <p class="imagetext">
-    "Happiness can be found, even in the darkest of times, if one only remembers to turn on the light"
+  <div id="caption">
+  	 "Happiness can be found, even in the darkest of times, if one only remembers to turn on the light"
     Hometown: San Francisco
     Studying: International Relations and Management, 4th year
     Favorite 7D Activity: Going to sleep after a filling meal with friends
     Spirit Cocktail: Mimosa
     Dream Date: Going to a cozy cafe, with lots of cake, that I've never heard of before. 
     Dietary Requirements: I hate fish. They are gross. 
-  </p>
+  </div>
   </div>
  
 <div class="col-sm-4" class="imagerep">
