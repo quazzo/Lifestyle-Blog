@@ -1,19 +1,40 @@
 #Food {
 	font-size: 30px;
 }
-img {
-	text-align: right;
-	margin-left: 10px;
+p {
+	font-size: 25px;
 }
 .TextWrapRight {
 	float: right;
-	margin: 10px;
+	margin-left: 25px;
+	margin-right:25px;
+	margin-top:40px;
+	margin-bottom: 40px;
 }
 .TextWrapLeft{
 	float: left;
-	margin: 10px;
+	margin-left: 25px;
+	margin-right: 25px;
+	margin-top:40px;
+	margin-bottom: 40px;
 }
 #firsttext {margin-right: 100px;
+			margin-bottom: 40px;
+			margin-top: 40px;
 }
 #secondtext {margin-left: 100px;
+			margin-bottom: 40px;
+			margin-top: 40px;
+}
+.rotateimg90 {
+  -webkit-transform:rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+.FixedRecipeForm
+{
+    position: fixed;
+    top: 170px;
 }
