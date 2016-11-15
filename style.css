@@ -6,7 +6,6 @@ h1 {font-family: 'Happy Monkey', cursive;
 	color: #91219E;
 	text-align: center;
 }
-
 ul.topnav li { 
 	display: inline;
 	margin: 100px;
@@ -14,6 +13,12 @@ ul.topnav li {
 	font-size: 20px;
 }
 
+.siteheading {
+	position: fixed;
+	top: 0px;
+	background-color: orange;
+	z-index: 1000;
+}
 a.sitelink:link
 {
    color: purple;
@@ -33,6 +38,10 @@ a.sitelink:active
 {
    color: purple;
    text-decoration: none;
+}
+
+.content {
+	margin-top:130px;
 }
 
 img {
