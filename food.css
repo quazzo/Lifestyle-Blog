@@ -1,4 +1,19 @@
 #Food {
 	font-size: 30px;
 }
-
+img {
+	text-align: right;
+	margin-left: 10px;
+}
+.TextWrapRight {
+	float: right;
+	margin: 10px;
+}
+.TextWrapLeft{
+	float: left;
+	margin: 10px;
+}
+#firsttext {margin-right: 100px;
+}
+#secondtext {margin-left: 100px;
+}
