@@ -1,9 +1,9 @@
 body {
-	background-color: #FCFBE3;
+	background-color: #d3d3d3;
 }
 
 h1 {font-family: 'Happy Monkey', cursive;
-	color: #91219E;
+	color: #5C246E;
 	text-align: center;
 }
 ul.topnav li { 
@@ -11,32 +11,33 @@ ul.topnav li {
 	margin: 100px;
 	font-family: 'Happy Monkey', cursive;
 	font-size: 20px;
+	font-color: #5C246E;
 }
 
 .siteheading {
 	position: fixed;
 	top: 0px;
-	background-color: orange;
+	background-color: #d3d3d3;
 	z-index: 1000;
 }
 a.sitelink:link
 {
-   color: purple;
+   color: #5C246E;
    text-decoration: none;
 }
 a.sitelink:visited
 {
-   color: purple;
+   color: #5C246E;
    text-decoration: none;
 }
 a.sitelink:hover
 {
-   color: purple;
+   color: #5C246E;
    text-decoration: none;
 }
 a.sitelink:active
 {
-   color: purple;
+   color: #5C246E;
    text-decoration: none;
 }
 
@@ -47,10 +48,3 @@ a.sitelink:active
 img {
 	text-align: right;
 }
-<<<<<<< HEAD
-}
-body {
-	background-color: grey !important;
-}
-=======
->>>>>>> origin/master
