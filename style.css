@@ -1,3 +1,7 @@
+html, body {
+  overflow-x: hidden;
+}
+
 body {
 	background-color: #d3d3d3 !important;
 }
@@ -19,6 +23,10 @@ ul.topnav li {
 	top: 0px;
 	background-color: #d3d3d3;
 	z-index: 1000;
+	position: relative; /* child absolute */
+  margin: 0 -9999rem;
+  /* add back section padding value */
+  padding: .25rem 9999rem;
 }
 a.sitelink:link
 {
