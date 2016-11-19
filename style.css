@@ -19,7 +19,7 @@ ul.topnav li {
 }
 
 .siteheading {
-	position: fixed;
+	position: fixed !important;
 	top: 0px;
 	background-color: #d3d3d3;
 	z-index: 1000;
