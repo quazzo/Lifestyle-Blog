@@ -1,9 +1,11 @@
+.content {
+	font-size: 20px;
+}
+
 #Food {
 	font-size: 30px;
 }
-p {
-	font-size: 25px;
-}
+
 .TextWrapRight {
 	float: right;
 	margin-left: 25px;
