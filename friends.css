@@ -15,6 +15,7 @@ h2 {font-family: 'Happy Monkey', cursive;
 }
 img {
 	width: 300px;
+  height: 450px;
 	border: 1px solid black;
 
 }
@@ -26,7 +27,6 @@ p {
 .imagerep{
 	position: relative;
 	display: inline;
-	height: 220px;
 	padding: 10px;
 }
 

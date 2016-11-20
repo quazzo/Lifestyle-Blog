@@ -38,13 +38,11 @@ h2{
 
 .sidenav{
 	 list-style-type: none !important;
-    margin-left: 950px;
+    float: left;
     padding: 0;
     position: absolute;
     width: 150px;
     background-color: #f1f1f1;
-    
-    float: right !important;
     height: 75%; /* Full height */
     position: fixed; /* Make it stick, even on scroll */
     overflow: auto;
